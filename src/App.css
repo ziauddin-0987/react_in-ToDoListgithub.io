@@ -12,12 +12,10 @@
   padding-left: 10px;
   border-radius: 8px;
 }
-.btn input {
-  /* margin: 10px; */
+.btn{
+
   width: 6rem;
-  /* position: absolute; */
-  /* bottom:3rem; */
-  /* right:18rem; */
+
   height: 3rem;
   font-size: 18px;
   padding-left: 10px;
@@ -31,7 +29,13 @@
   box-shadow: 1px 1px 2px 2px gray;
   border-radius: 10px;
 }
+.textParent{
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: center;
+}
 .toOneDiv {
+  
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -44,8 +48,7 @@
   padding-top: 20px;
   margin-top: 20px;
 }
-.toTowDiv {
-  /* width: 500px; */
-  /* height: 400px; */
-  /* box-shadow: 1px 1px 2px 2px gray; */
+.printUlText {
+  width: 400px;
+  height: 400px;
 }
