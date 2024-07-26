@@ -4,6 +4,10 @@
   padding: 2rem;
   text-align: center;
 }
+body {
+  background-color: black;
+  /* color:white */
+}
 
 .inputs {
   width: 300px;
@@ -12,8 +16,7 @@
   padding-left: 10px;
   border-radius: 8px;
 }
-.btn{
-
+.btn {
   width: 6rem;
 
   height: 3rem;
@@ -24,22 +27,22 @@
 }
 .container {
   /* position: relative; */
+  background-color: white;
   width: 600px;
   height: 500px;
   box-shadow: 1px 1px 2px 2px gray;
   border-radius: 10px;
 }
-.textParent{
+.textParent {
   /* overflow: hidden; */
   display: flex;
   justify-content: center;
 }
 .toOneDiv {
-  
   padding: 20px;
   display: flex;
   justify-content: center;
-  
+
   /* box-shadow: 1px 1px 2px 2px gray; */
   border-radius: 10px;
   /* background-color: blue; */
